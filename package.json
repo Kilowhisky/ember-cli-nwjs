@@ -6,18 +6,15 @@
     "test": "node tests/runner.js"
   },
   "repository": "https://github.com/brzpegasus/ember-cli-nwjs",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
   "author": "Estelle DeBlois",
   "license": "MIT",
   "dependencies": {
     "broccoli-funnel": "^1.0.1",
-    "broccoli-merge-trees": "^1.1.1",
-    "broccoli-string-replace": "0.1.1",
+    "broccoli-merge-trees": "^2.0.0",
+    "broccoli-string-replace": "0.1.2",
     "chalk": "^1.1.1",
     "lodash": "^4.0.0",
-    "nw-builder": "^2.2.0",
+    "nw-builder": "^3.2.0",
     "optimist": "0.6.1",
     "quick-temp": "0.1.5",
     "rsvp": "^3.1.0",
@@ -25,18 +22,20 @@
   },
   "devDependencies": {
     "broccoli-jscs": "^1.2.2",
-    "broccoli-jshint": "^1.1.1",
+    "broccoli-jshint": "^2.1.0",
     "chai": "^3.4.1",
     "chai-as-promised": "^5.2.0",
-    "ember-cli": "^1.13.15",
-    "ember-cli-release": "1.0.0-beta.1",
     "glob": "^6.0.4",
     "mocha": "^2.3.4",
     "mocha-jscs": "^4.0.0",
     "mocha-jshint": "^2.2.6",
     "mock-spawn": "0.2.6",
     "mockery": "^1.4.0",
-    "sinon": "^1.17.2"
+    "sinon": "^1.17.2",
+    "ember-cli": "2.12.1"
+  },
+  "engines": {
+    "node": ">= 4"
   },
   "keywords": [
     "ember-addon",
